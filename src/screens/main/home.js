@@ -55,10 +55,10 @@ export default ((props) =>  {
           <form className={classes.form} noValidate>
             <Login initialValue="Teste" />
           </form>
+          <Button variant="contained" color="primary" className={classes.button}>
+            Ok
+          </Button>
         </div>
-        <Button variant="contained" color="primary" className={classes.button}>
-          Primary
-        </Button>
       </Container>
     </div>
   );
